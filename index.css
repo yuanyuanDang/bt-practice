@@ -1,0 +1,42 @@
+
+.box {
+  width: 1000px;
+  margin: 0 auto;
+}
+.navbar {
+  background: #ffffff;
+  border: none;
+  border-bottom: 1px solid #999999;
+}
+
+section {
+  width: 800px;
+  float: right;
+}
+.section-left {
+  margin-top: 18px;
+  float: left;
+  width: 360px;
+  /*height: 360px;*/
+}
+.section-right {
+  float: right;
+  width: 260px;
+  /*height: 390px;*/
+}
+.input-group-sm {
+  width: 200px;
+}
+.section-left .list-group a .radio {
+  display: inline-block;
+  margin-left: 10px;
+}
+.section-left .list-group a .distpicker {
+  margin-top: 10px;
+}
+.section-left .list-group a .distpicker select{
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+}

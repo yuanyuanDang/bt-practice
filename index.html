@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <script src="jquery-3.4.1/jquery-3.4.1.min.js"></script>
+  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/distpicker/2.0.3/distpicker.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <title>form</title>
+</head>
+<body>
+<div class="box">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#" style="color: orange;font-size: 24px">一盏课堂</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><button type="button" class="btn btn-primary btn-lg" style="background: #1a9cfc;border: none">下载APP
+        </button></li>
+        <li><a href="#"><span class="glyphicon glyphicon-chevron-down" style="color: #1a9cfc"></span>登录</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section>
+    <div class="section-left">
+      <div class="list-group">
+        <a href="#" class="list-group-item active" style="background: #1a9cfc">
+          <h4 class="list-group-item-heading">
+            欢迎加入一盏课堂
+          </h4>
+        </a>
+        <a href="#" class="list-group-item">
+          <h5 class="list-group-item-heading">
+            <strong>个人登记表单</strong>
+          </h5>
+        </a>
+        <a href="#" class="list-group-item">
+          <strong>请留下你的大名</strong>
+          <p class="text-muted">告诉我你的大名或绰号吧</p>
+            <form class="bs-example bs-example-form" role="form">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="input-group input-group-sm">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+              </div>
+            </form>
+        </a>
+        <a href="#" class="list-group-item">
+          <strong>你的最高学历是</strong>
+          <p class="text-muted">告诉我们你的最高学历我们只是想多了解一下</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>高中
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">大学
+            </label>
+          </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option2">硕士
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios4" value="option2">博士
+              </label>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+          <strong>你来自哪里呢</strong>
+          <div data-toggle="distpicker" class="distpicker">
+            <select data-province="陕西省" class="select" style="width: 100px"></select>
+            <select data-city="西安市" class="select"></select>
+            <select data-district="雁塔区" class="select"></select>
+          </div>
+        </a>
+        <a href="#" class="list-group-item">
+          <strong>自我评估</strong>
+          <table class="table table-bordered table-condensed">
+            <thead>
+            <tr>
+              <th></th>
+              <th id="across-1">较差一些</th>
+              <th id="across-2">一般</th>
+              <th id="across-3">还不错</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td id="communication">沟通技巧</td>
+              <td>
+                <div class="radio" style="padding: 0;margin: 0 40%;">
+                  <label>
+                    <input type="radio" name="optionsRadios-1" value="option1" checked/>
+                  </label>
+                </div>
+              </td>
+              <td>
+                <div class="radio" style="padding: 0;margin: 0 40%;">
+                  <label>
+                    <input type="radio" name="optionsRadios-1" value="option1" checked/>
+                  </label>
+                </div>
+              </td>
+              <td>
+                <div class="radio" style="padding: 0;margin: 0 40%;">
+                  <label>
+                    <input type="radio" name="optionsRadios-1" value="option1" checked/>
+                  </label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td id="time-sense">时间观念</td>
+              <td>
+                <div class="radio" style="padding: 0;margin: 0 40%;">
+                  <label>
+                    <input type="radio" name="optionsRadios-2" value="option1" checked/>
+                  </label>
+                </div>
+              </td>
+              <td>
+                <div class="radio" style="padding: 0;margin: 0 40%;">
+                  <label>
+                    <input type="radio" name="optionsRadios-2" value="option1" checked/>
+                  </label>
+                </div>
+              </td>
+              <td>
+                <div class="radio" style="padding: 0;margin: 0 40%;">
+                  <label>
+                    <input type="radio" name="optionsRadios-2" value="option1" checked/>
+                  </label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td id="technology">技术水平</td>
+              <td>
+                <div class="radio" style="padding: 0;margin: 0 40%;">
+                  <label>
+                    <input type="radio" name="optionsRadios-3" value="option1" checked/>
+                  </label>
+                </div>
+              </td>
+              <td>
+                <div class="radio" style="padding: 0;margin: 0 40%;">
+                  <label>
+                    <input type="radio" name="optionsRadios-3" value="option1" checked/>
+                  </label>
+                </div>
+              </td>
+              <td>
+                <div class="radio" style="padding: 0;margin: 0 40%;">
+                  <label>
+                    <input type="radio" name="optionsRadios-3" value="option1" checked/>
+                  </label>
+                </div>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <button type="button" class="btn btn-primary" style="background: #1a9cfc">提交</button>
+        </a>
+      </div>
+    </div>
+    <div class="section-right">
+      <div class="list-group">
+        <a href="#" class="list-group-item active" style="background: #1a9cfc">
+          <h4 class="list-group-item-heading">
+            添加字段
+          </h4>
+        </a>
+        <a href="#" class="list-group-item">
+          <button type="button" class="btn btn-default" style="margin-top: 5px">单行文本</button>
+          <button type="button" class="btn btn-default" style="margin-top: 5px">单项选择</button>
+          <button type="button" class="btn btn-default" style="margin-top: 5px">矩阵单选</button>
+          <button type="button" class="btn btn-default" style="margin-top: 5px">下拉菜单</button>
+        </a>
+        <a href="#" class="list-group-item active" style="background: #1a9cfc">
+          <h4 class="list-group-item-heading">
+            编辑字段
+          </h4>
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="form-group">
+            <label>标题</label>
+            <input type="text" class="form-control" id="name-1" placeholder="自我评估"/>
+          </div>
+          <div class="form-group">
+            <label>题目</label>
+            <input type="text" class="form-control" id="name-2" placeholder="沟通技巧" style="margin-top: 5px"/>
+            <input type="text" class="form-control" id="name-3" placeholder="时间观念" style="margin-top: 5px"/>
+            <input type="text" class="form-control" id="name-4" placeholder="技能熟练" style="margin-top: 5px"/>
+          </div>
+          <div class="form-group">
+            <label>选项</label>
+            <input type="text" class="form-control" id="name-5" placeholder="较差一些" style="margin-top: 5px"/>
+            <input type="text" class="form-control" id="name-6" placeholder="一般了" style="margin-top: 5px"/>
+            <input type="text" class="form-control" id="name-7" placeholder="还不错" style="margin-top: 5px"/>
+            <input type="text" class="form-control" id="name-8" placeholder="这是我的强项" style="margin-top: 5px"/>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
